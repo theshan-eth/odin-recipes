@@ -1,10 +1,46 @@
 h1 {
-    color:rgb(83, 83, 218);
+    color: #213940;
     font-size: 100px;
     font-family: monospace;
     text-align: center;
 }
-img {
-    align-items: center;
-    
+.recipeimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    position: relative;
+    z-index: -1;
 }
+h2 {
+    color:#229dbf;
+    font-size: 50px;
+    font-family: monospace; 
+    text-align: center;
+}
+h3 {
+    color:#4e717a;
+    font-size: 35px;
+}
+li {
+    color:#0d1314
+}
+
+.btn-group button {
+    background-color: #229dbf; /* Green background */
+    border: 1px solid #213940; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 100%; /* Set a width if needed */
+    display: block; /* Make the buttons appear below each other */
+  }
+  
+  .btn-group button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+  }
+  
+  /* Add a background color on hover */
+  .btn-group button:hover {
+    background-color: #4e717a;
+  }
